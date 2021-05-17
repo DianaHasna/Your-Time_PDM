@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Para">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        android:orientation="vertical"
+        android:background="@drawable/form"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/titlepage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Adauga materii"
+            android:layout_marginBottom="22dp"
+            android:fontFamily="@font/poppinsbold"
+            android:textAlignment="center"
+            android:textColor="#484848"
+            android:textSize="28sp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="#131E69"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bgitemdoes"
+        android:orientation="vertical"
+        android:paddingTop="22dp"
+        android:paddingBottom="22dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="220dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/addtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="Materie:"
+                android:layout_marginBottom="10dp"
+                />
+
+            <EditText
+                android:id="@+id/titledoes"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="Introdu numele materiei"
+                android:textColorHint="#B5B5B5"
+                android:textColor="@color/black"
+                android:inputType="text"
+                android:paddingLeft="12dp"
+                android:background="@drawable/bginputtask"
+
+                />
+
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/adddesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="Link:"
+                android:layout_marginBottom="10dp"
+                />
+
+            <EditText
+                android:id="@+id/descdose"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="Introdu link-ul de conectare"
+                android:textColorHint="#B5B5B5"
+                android:textColor="@color/black"
+                android:inputType="text"
+                android:paddingLeft="12dp"
+                android:background="@drawable/bginputtask"
+
+                />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/adddate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="Ziua/ora:"
+                android:layout_marginBottom="10dp"
+                />
+
+            <EditText
+                android:id="@+id/datedoes"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="Introdu ziua/ora"
+                android:textColorHint="#B5B5B5"
+                android:textColor="@color/black"
+                android:inputType="text"
+                android:paddingLeft="12dp"
+                android:background="@drawable/bginputtask"
+
+                />
+
+        </LinearLayout>
+
+
+
+
+
+    <TextView
+        android:id="@+id/endpage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nu_mai_aveti_nimice_de_facut"
+        android:textAlignment="center"
+        android:textColor="#9A9A9A"
+        android:textSize="16sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="580dp" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="363dp"
+        android:layout_marginLeft="22dp"
+        android:layout_height="43dp"
+        android:background="@drawable/bgbtncancel"
+        android:text="@string/anuleaza"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="676dp" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnSaveTask"
+        android:layout_width="363dp"
+        android:layout_marginLeft="22dp"
+        android:layout_height="43dp"
+        android:background="@drawable/bgbtncreate"
+        android:text="@string/creeaza"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="621dp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">LogIn</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Login">Login</string>
+    <string name="Signup">Signup</string>
+    <string name="Fullname">Fullname</string>
+    <string name="Email">Email</string>
+    <string name="Login_here">Login Here</string>
+    <string name="LoginHere">Ai deja un cont? Inregistreaza te aici</string>
+    <string name="SignUpHere">Cont nou? Inregistreaza-te aici</string>
+    <string name="signup">signup</string>
+    <string name="welcome">Welcome!</string>
+    <string name="salut">salut</string>
+    <string name="saptamana_para">Saptamana Para</string>
+    <string name="para">para</string>
+    <string name="saptamana_impara">Saptamana impara</string>
+    <string name="de_terminat">De terminat!</string>
+    <string name="nu_mai_aveti_nimice_de_facut">Nu mai aveti nimice de facut!</string>
+    <string name="saptamana">Saptamana</string>
+    <string name="add">+</string>
+    <string name="anuleaza">Anuleaza</string>
+    <string name="creeaza">Creeaza</string>
+</resources>
