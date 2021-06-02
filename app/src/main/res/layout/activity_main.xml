@@ -1,20 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/f3">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/poppinsmedium"
-        android:text="@string/welcome"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="108dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Bine ai venit!"
+        android:textColor="@color/white"
+        android:textSize="27dp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <Button
+        android:id="@+id/buttonO"
+        android:layout_width="200dp"
+        android:layout_marginLeft="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:text="@string/orar_existent"
+        android:background="#ba6b6c"
+        android:textColor="@color/white"
+        />
+    <Button
+        android:id="@+id/buttonC"
+        android:layout_width="200dp"
+        android:layout_marginLeft="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:text="@string/creare_orar"
+        android:background="#ba6b6c"
+        android:textColor="@color/white"
+        />
+
+</RelativeLayout>

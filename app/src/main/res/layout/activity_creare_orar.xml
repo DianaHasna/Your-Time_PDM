@@ -1,0 +1,126 @@
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myLayout"
+    android:stretchColumns="0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fun4"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="153dp"
+        android:layout_y="10dp"
+        android:text="@string/title"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="18dp"
+        />
+
+    <TextView android:text="@string/denumire"
+        android:layout_x="30dp"
+        android:layout_y="48dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+    <EditText android:id="@+id/editDenumire"
+        android:layout_x="155dp"
+        android:textColor="#454545"
+        android:layout_y="33dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"/>
+
+
+
+    <TextView android:text="@string/inceput"
+        android:layout_x="30dp"
+        android:layout_y="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+    <EditText android:id="@+id/editInceput"
+        android:textColor="#454545"
+        android:layout_x="155dp"
+        android:layout_y="81dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"/>
+
+
+
+    <TextView android:text="@string/sfarsit"
+        android:layout_x="30dp"
+        android:layout_y="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+    <EditText android:id="@+id/editSfarsit"
+        android:textColor="#454545"
+        android:layout_x="155dp"
+        android:layout_y="128dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"/>
+
+
+
+    <TextView android:text="@string/link"
+        android:layout_x="30dp"
+        android:layout_y="205dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+    <EditText android:id="@+id/editLink"
+        android:textColor="#454545"
+        android:layout_x="155dp"
+        android:layout_y="175dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"/>
+
+
+
+    <TextView android:text="@string/comentarii"
+        android:layout_x="30dp"
+        android:layout_y="255dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+    <EditText android:id="@+id/editComentarii"
+        android:textColor="#454545"
+        android:layout_x="155dp"
+        android:layout_y="222dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"/>
+
+
+
+    <TextView android:text="@string/ziua"
+        android:layout_x="30dp"
+        android:layout_y="305dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+    <EditText android:id="@+id/editData"
+        android:textColor="#454545"
+        android:layout_x="155dp"
+        android:layout_y="269dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"/>
+
+
+
+
+    <Button android:id="@+id/btnAdd"
+        android:text="@string/adauga"
+        android:layout_x="30dp"
+        android:layout_y="400dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"/>
+    <Button android:id="@+id/btnDelete"
+        android:text="@string/sterge"
+        android:layout_x="250dp"
+        android:layout_y="400dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"/>
+
+
+</AbsoluteLayout>
